@@ -9,7 +9,6 @@
 
 const prompt = require("prompt-sync")();
 
-
 const ROWS = 3;
 const COLS = 3;
 
@@ -26,10 +25,6 @@ const  SYMBOL_VALUES = {
     "C": 3,
     "D": 2
 }
-
-
-
-
 
 // function deposit() {
 //     return 1
@@ -174,11 +169,6 @@ const game = () => {
 
         if(playAgain != "y") break;
     }
-
 }
 
 game();
-
-
-
-
